@@ -166,7 +166,6 @@
 }
 
 .tm {
-    line-height: 50px;
     width: 400px;
     margin-top: 15px;
     color: #0C2E62;
@@ -207,6 +206,12 @@
 }
 
 .txt2-cs {
+    color: #848484;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.txt3-cs {
     color: #848484;
     font-weight: 400;
     font-size: 17px;
