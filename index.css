@@ -11,8 +11,8 @@
     background-color: #FAFAFA;
 }
 
-.cont1 {
-    background-color: #0C2E62;
+.bt-tog {
+    color: #E77E49;
 }
 
 .ac {
@@ -27,10 +27,6 @@
     padding-bottom: 0.5rem;
 }
 
-.bt-tog {
-    color: #E77E49;
-}
-
 .ac:hover {
     font-size: 16px;
     font-weight: 500;
@@ -40,6 +36,10 @@
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
+}
+
+.cont1 {
+    background-color: #0C2E62;
 }
 
 .gs {
@@ -61,31 +61,6 @@
 }
 
 .gs:hover {
-    color: #E77E49;
-    background-color: #0C2E62;
-    transition-duration: 200ms;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 300ms;
-}
-
-.btn-cs {
-    position: absolute;
-    margin-left: 330px;
-    align-items: center;
-    display: inline-flex;
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
-    background-color: #E77E49;
-    border-radius: 1rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.btn-cs:hover {
     color: #E77E49;
     background-color: #0C2E62;
     transition-duration: 200ms;
@@ -117,6 +92,49 @@
     transition-duration: 150ms;
 }
 
+.ser {
+    color: #E77E49;
+}
+
+.ser2 {
+    color: #0C2E62;
+    font-weight: 700;
+}
+
+.txt-ser {
+    color: #0C2E62;
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.txt2-ser {
+    color: #848484;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.btn-serv {
+    font-size: 16px;
+    font-weight: 500;
+    color: #E77E49;
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+    border-radius: 12px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.btn-serv:hover {
+    color: white;
+    background-color: #E77E49;
+    transition-duration: 200ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
 .lm2 {
     font-size: 16px;
     font-weight: 500;
@@ -140,41 +158,37 @@
     transition-duration: 150ms;
 }
 
-.ser {
-    color: #E77E49;
-}
-
 .bs {
     color: #E77E49;
-}
-
-.bs2 {
-    line-height: 40px;
-    width: 600PX;
-    margin-top: 15px;
-    color: #0C2E62;
-}
-
-.trus {
-    align-items: center;
-    border-radius: 8px;
-    background-color: #FFFFFF1A;
-    width: 235px;
-    padding-left: 10px;
-    padding-top: 8px;
-    padding-bottom: 5px;
-}
-
-Lorem Ipsum is simply dummy text of the printing & typesetting industry. Lorem Ipsum has been the industry's standard dumm
-
-.ser2 {
-    color: #0C2E62;
-    font-weight: 700;
 }
 
 .ci {
     color: #0C2E62;
     font-weight: 700;
+}
+
+.txt-bs {
+    margin-top: 35px;
+    line-height: 30px;
+    width: 350px;
+    color: #848484;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.tm {
+    width: 400px;
+    margin-top: 15px;
+    color: #0C2E62;
+}
+
+.txt-tm {
+    margin-top: 35px;
+    width: 350px;
+    line-height: 35px;
+    color: #848484;
+    font-weight: 400;
+    font-size: 17px;
 }
 
 .cs {
@@ -183,22 +197,20 @@ Lorem Ipsum is simply dummy text of the printing & typesetting industry. Lorem I
     font-weight: 700;
 }
 
-.txt-ser {
-    color: #0C2E62;
-    font-weight: 600;
-    font-size: 23px;
-    margin-top: 20px;
+.card-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
+.circle {
+    color: #E77E49;
+}
+
 .txt-cs {
     color: #0C2E62;
     font-weight: 600;
     font-size: 23px;
-}
-
-.txt2-ser {
-    color: #848484;
-    font-weight: 400;
-    font-size: 17px;
 }
 
 .txt2-cs {
@@ -213,64 +225,7 @@ Lorem Ipsum is simply dummy text of the printing & typesetting industry. Lorem I
     font-size: 17px;
 }
 
-.txt-bs {
-    margin-top: 35px;
-    line-height: 30px;
-    width: 350px;
-    color: #848484;
-    font-weight: 400;
-    font-size: 17px;
-}
-
-.txt-is {
-    margin-top: 35px;
-    width: 600px;
-    color: #848484;
-    font-weight: 400;
-    font-size: 17px;
-}
-
-.txt-tm {
-    margin-top: 35px;
-    width: 350px;
-    line-height: 35px;
-    color: #848484;
-    font-weight: 400;
-    font-size: 17px;
-}
-
-.circle {
-    color: #E77E49;
-}
-
-.card-title {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.ser-btn {
-    font-size: 16px;
-    font-weight: 500;
-    color: #E77E49;
-    background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-    border-radius: 12px;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.ser-btn:hover {
-    color: white;
-    background-color: #E77E49;
-    transition-duration: 200ms;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 150ms;
-}
-
-.fot {
+.ftr-up {
     margin-top: 7rem;
     width: 100%;
     background-color: #0C2E62;
@@ -279,7 +234,7 @@ Lorem Ipsum is simply dummy text of the printing & typesetting industry. Lorem I
     text-align: center;
 }
 
-.fd {
+.ftr-down {
     background-color: #0A2753;
 }
 
@@ -320,6 +275,7 @@ Lorem Ipsum is simply dummy text of the printing & typesetting industry. Lorem I
 .relative-container {
     position: relative;
 }
+
 .overlay-image {
     position: absolute;
     top: 90%;
